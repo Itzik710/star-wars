@@ -1,0 +1,27 @@
+.bars {
+    display: flex;
+    flex-direction: row;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.barValue {
+    padding-bottom: 10px;
+}
+
+.barRectangle {
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 105px;
+}
+
+.barKey {
+    padding-top: 10px;
+    font-weight: bold;
+}

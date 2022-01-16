@@ -1,0 +1,18 @@
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.row {
+    border: 1px solid black;
+}
+
+.rowKey {
+    display: flex;
+    align-items: flex-start;
+}
+
+.rowValue {
+    padding: 0 5px 0 10px;
+}
